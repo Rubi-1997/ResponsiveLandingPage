@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+  </head>
+  <body class="relative p-0 m-0">
+    <div class="">
+      <nav
+        class="px-[1rem] py-4  md:px-[6rem] lg:px-[6rem] flex justify-between items-center sticky top-0 z-50 bg-white"
+      >
+        <div class="font-bold text-xl flex">
+          <img src="logo.png" class="w-6 mr-2" />AppName
+        </div>
+        <div class="flex">
+          <ul class="md:flex items-center hidden">
+            <li class="lg:px-8 md:px-4">Features</li>
+            <li class="lg:px-8 md:px-4">Pricing</li>
+            <li class="lg:px-8 md:px-4">About</li>
+            <li class="lg:px-8 md:px-4">Contact</li>
+            <li>
+              <button class="bg-blue-700 px-4 py-2 text-white rounded-md">
+                Get Started
+              </button>
+            </li>
+          </ul>
+
+          <button class="px-4 py-2 rounded-md md:hidden bg-black-100 w-5">
+            &#9776;
+          </button>
+        </div>
+      </nav>
+      <!-- hero section -->
+      <section>
+        <div
+          class="flex px-4 md:px-[6rem] lg:px-[6rem] py-8  lg:gap-[6rem] lg:flex-row flex-col h-screen bg-linear-to-t from-purple-700 to-blue-800"
+        >
+          <div class="lg:w-1/2 md:mx-auto  flex justify-center items-center">
+            <div class="">
+              <h1
+              class="lg:text-6xl md:text-4xl text-2xl font-medium text-white text-center md:text-center lg:text-start"
+            >
+              Building Amazing Products Faster
+            </h1>
+            <div class="md:flex md:justify-center lg:justify-start">
+ <p
+              class="py-2 lg:text-left md:text-base text-sm pt-4 text-white md:w-3/4 md:text-center  text-center"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
+              dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            </div>
+           
+
+            <div class="flex py-4 lg:py-8 md:py-8 gap-4 flex-col lg:flex-row md:flex-row md:justify-center lg:justify-start">
+              <button
+                class="text-sky-800 bg-white font-bold px-8 py-2 rounded-lg text-md"
+              >
+                Start Free Trial
+              </button>
+              <button
+                class="bg-transparent text-white border px-8 py-2 rounded-lg text-md"
+              >
+                Watch Demo
+              </button>
+            </div>
+            </div>
+          </div>
+          <div class="lg:w-1/2 md:w-full w-full grid items-center  relative h-full    md:rounded-xl lg:rounded-xl ">
+            <img src="image2.jpg" class=" shadow w-[100%] object-cover object-center  rounded-xl " />
+          </div>
+        </div>
+      </section>
+    </div>
+    <section>
+      <div class="px-4 py-8 md:px-[4rem] md:py-[4rem] bg-indigo-50">
+        <h1 class="text-2xl lg:text-4xl md:text-2xl text-center font-bold">
+          Powerful Features
+        </h1>
+
+        <div class="features grid md:grid-flow-col md:grid-rows-1 gap-8 mt-8">
+          <div class="p-4 bg-white rounded-md">
+            <div class="bg-sky-100 py-2 w-6 rounded-md px-2">
+              <img src="spark.png" class="w-4" />
+            </div>
+            <h4 class="font-bold mt-2">Lightning Fast</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="p-4 bg-white rounded-md">
+            <div class="bg-green-100 p-2 w-8 rounded-md">
+              <img src="lock.png" class="w-6" />
+            </div>
+            <h4 class="font-bold mt-2">Lightning Fast</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="p-4 bg-white rounded-md">
+            <div class="bg-violet-100 p-2 w-8 rounded-md">
+              <img src="analysis.png" class="w-6" />
+            </div>
+            <h4 class="font-bold mt-2">Lightning Fast</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer section -->
+    <section>
+      <div
+        class="px-4 py-8 md:px-[4rem] md:py-[2rem] bg-black md:flex items-center justify-between"
+      >
+        <div
+          class="md:font-bold md:text-xl flex text-white font-semibold items-center justify-center"
+        >
+          <img src="logo.png" class="w-6 mr-2" />AppName
+        </div>
+        <div>
+          <p class="text-gray-300 text-center text-sm">
+            2026 AppName.All rights reserved.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
